@@ -267,7 +267,7 @@
 
 .meal:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem 0 rgb(0, 0, 0, 0.2);
+  box-shadow: 0 3.2rem 4.8rem 0 rgb(0, 0, 0, 0.2);
 }
 
 .meal-img {
@@ -495,7 +495,7 @@
 /******************************/
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -506,24 +506,23 @@
   border-radius: 1.2rem;
 
   background-image: linear-gradient(to bottom right, #eb984e, #e67e22);
-
-  height: 50rem;
   overflow: hidden;
 }
 
 .cta-text-box {
-  padding: 6.4rem;
+  padding: 4rem 6.4rem 6.4rem 6.4rem;
   color: #45260a;
 }
 
 .cta .heading-secondary {
-  color: #45260a;
+  color: inherit;
   margin-bottom: 3.2rem;
 }
 
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 3.2rem;
 }
 
 .cta-img-box {
@@ -538,4 +537,123 @@
 
 .cta-img {
   width: 50%;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 0.9rem;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+/******************************/
+/* FOOTER SECTION */
+/******************************/
+
+footer {
+  border-top: 0.1rem solid #eee;
+  padding: 12.8rem 0;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: flex;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  color: #767676;
+  margin-top: auto;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.8rem;
+}
+
+.address-col {
+}
+
+.nav-col {
 }
