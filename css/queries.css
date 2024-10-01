@@ -1,0 +1,11 @@
+/* 1rem = 1em = 16px */
+
+/******************************/
+/* 1344px (Smaller desktops) */
+/******************************/
+
+@media screen and (max-width: 84em) {
+  .hero {
+    max-width: 100rem;
+  }
+}
