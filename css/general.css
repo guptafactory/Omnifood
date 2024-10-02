@@ -44,6 +44,7 @@ html {
   /* 10px == 62.5% of 16px */
   /* font-size: 10px; */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -52,6 +53,8 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1;
+
+  overflow-x: hidden;
 }
 
 /******************************/
@@ -89,10 +92,6 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading-primary,
