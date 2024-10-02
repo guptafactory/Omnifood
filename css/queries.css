@@ -253,8 +253,12 @@
     width: 80%;
   }
 
+  .featured-logos {
+    gap: 1rem;
+  }
+
   .featured-logos img {
-    height: 1.4rem;
+    height: 1.2rem;
   }
 
   .step-img-box:nth-child(2) {
