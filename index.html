@@ -3,8 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omnifood Desktop</title>
+    <meta
+      name="description"
+      content="Omnifood is a smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs."
+    />
+    <title>Omnifood &mdash; Never Cook Again</title>
 
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.png" />
+    <link rel="icon" href="./img/favicon-512.png" />
+    <link rel="icon" href="./img/favicon-192.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- CSS and Fonts -->
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/queries.css" />
@@ -15,6 +31,7 @@
       rel="stylesheet"
     />
 
+    <!-- Scripts -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -27,7 +44,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header sticky">
       <a href="#">
         <img src="./img/omnifood-logo.png" alt="Omnifood Logo" class="logo" />
       </a>
