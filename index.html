@@ -678,7 +678,27 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form" action="#">
+              <form
+                class="cta-form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="f802ad60-6c31-4e5a-b184-eb81ee17f261"
+                />
+
+                <!-- Honeypot Spam Protection -->
+                <input
+                  type="checkbox"
+                  name="botcheck"
+                  class="hidden"
+                  style="display: none"
+                />
+
+                <!-- Custom Confirmation / Success Page -->
+                <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -713,7 +733,7 @@
                   </select>
                 </div>
 
-                <button class="btn btn--form">Sign up now</button>
+                <button class="btn btn--form" type="submit">Sign up now</button>
               </form>
             </div>
 
