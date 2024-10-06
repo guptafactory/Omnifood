@@ -678,27 +678,7 @@
                 first meal is on us!
               </p>
 
-              <form
-                class="cta-form"
-                action="https://api.web3forms.com/submit"
-                method="POST"
-              >
-                <input
-                  type="hidden"
-                  name="access_key"
-                  value="f802ad60-6c31-4e5a-b184-eb81ee17f261"
-                />
-
-                <!-- Honeypot Spam Protection -->
-                <input
-                  type="checkbox"
-                  name="botcheck"
-                  class="hidden"
-                  style="display: none"
-                />
-
-                <!-- Custom Confirmation / Success Page -->
-                <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+              <form class="cta-form" name="contact-form" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -723,7 +703,7 @@
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select name="select-where" id="select-where" required>
+                  <select name="hear-from-us" id="select-where" required>
                     <option value="" disabled>Please choose one option:</option>
                     <option value="friends">Friends and Family</option>
                     <option value="youtube">Youtube Video</option>
